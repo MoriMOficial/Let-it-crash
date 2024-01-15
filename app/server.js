@@ -15,7 +15,7 @@ getDB((DB) => {
 
 const storage = new AsyncLocalStorage()
 
-    // gets the response from de body and saves the user ID and RESPONSE
+    // gets the response from the body and saves the user ID and RESPONSE
 export const setValue = (response) => {
     storage.enterWith({ response, id: randomUUID() })
     console.log("=> storage saved".yellow)
