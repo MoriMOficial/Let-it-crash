@@ -21,7 +21,7 @@ export const setValue = (response) => {
     console.log("=> storage saved".yellow)
 }
 
-    // error verification
+    // error verification "Let it crash"
 for (const error of ['uncaughtException', 'unhandledRejection']) {
     process.once(error, async (message) => {
         const { response, id } = storage.getStore()
