@@ -1,4 +1,4 @@
-Projeto que utiliza do AsyncLocalStorage para fazer um controle do crash, quando um usuário gerar um erro Let it crash tem o trabalho de:
+Projeto que utiliza do "AsyncLocalStorage" para fazer um controle do crash, quando um usuário gerar um erro o sistema "Let it crash" tem o trabalho de:
 
 .Responder o usuário
 
