@@ -2,7 +2,7 @@ Projeto que utiliza do modulo nativo do node "AsyncLocalStorage" para fazer um c
 
 .Responder o usuário
 
-.Cortar o canal de cominucação
+.Cortar o canal de comunicação
 
 .Encerrar conexões externas
 
